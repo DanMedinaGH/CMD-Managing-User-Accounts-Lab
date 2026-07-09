@@ -26,6 +26,15 @@ We can see the details below:
 
 ![Show New User](./assets/show-new-user.png)
 
+## Restricting Time on User Account
+We can restrict the time on a user account by using the /TIMES switch, for example ```NET USER "THE GOAT" /TIMES:M-F,7AM-7PM;Sa,7AM-11PM```
+
+![Restricting User Times](./assets/restricting-user-times.png)
+
+This can be important when restricting the login times for employees or children at home, preventing unintentional or unwanted alterations.
+
+
+
 ## Disabling and Deleting a User Account
 We can disable and delete a user account as well. We may need to do this as this can pose a security risk if a bad actor guesses the correct password for a user, especially a privileged user.
 
